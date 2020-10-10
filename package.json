@@ -1,6 +1,6 @@
 {
   "homepage": "https://prodigysim.github.io/l4d-web-tools",
-  "name": "psim-gh-pages-src",
+  "name": "l4d-web-tools",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
