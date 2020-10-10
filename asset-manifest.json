@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/l4d2-tools/static/css/main.5f361e03.chunk.css",
+    "main.js": "/l4d2-tools/static/js/main.c693fd08.chunk.js",
+    "main.js.map": "/l4d2-tools/static/js/main.c693fd08.chunk.js.map",
+    "runtime-main.js": "/l4d2-tools/static/js/runtime-main.5cab08ef.js",
+    "runtime-main.js.map": "/l4d2-tools/static/js/runtime-main.5cab08ef.js.map",
+    "static/js/2.5aad20e7.chunk.js": "/l4d2-tools/static/js/2.5aad20e7.chunk.js",
+    "static/js/2.5aad20e7.chunk.js.map": "/l4d2-tools/static/js/2.5aad20e7.chunk.js.map",
+    "index.html": "/l4d2-tools/index.html",
+    "precache-manifest.3bb90f01dea7ff4f3def03629e530d8d.js": "/l4d2-tools/precache-manifest.3bb90f01dea7ff4f3def03629e530d8d.js",
+    "service-worker.js": "/l4d2-tools/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/l4d2-tools/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.5aad20e7.chunk.js.LICENSE.txt": "/l4d2-tools/static/js/2.5aad20e7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/l4d2-tools/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cab08ef.js",
+    "static/js/2.5aad20e7.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.c693fd08.chunk.js"
+  ]
+}
