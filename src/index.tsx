@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { RecoilRoot } from "recoil";
+import { Provider } from "react-redux";
+
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { createStore } from "@reduxjs/toolkit";
+import rootReducer from "./redux/rootReducer";
 
+const store = createStore(rootReducer);
 ReactDOM.render(
   <React.StrictMode>
-    <RecoilRoot>
+    <Provider store={store}>
       <App />
-    </RecoilRoot>
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

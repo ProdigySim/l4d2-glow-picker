@@ -4,139 +4,139 @@
     "r": "1.0",
     "g": "0.0",
     "b": "0.0",
-    "desciption": "Color of ability glow"
+    "description": "Infected Dominating Survivor"
   },
   {
     "name": "cl_glow_ability_colorblind",
     "r": "0.3",
     "g": "1.0",
     "b": "1.0",
-    "desciption": "Color of ability glow"
+    "description": "Infected Dominating Survivor"
   },
   {
     "name": "cl_glow_ghost_infected",
     "r": "0.3",
     "g": "0.4",
     "b": "1.0",
-    "desciption": "Color of infected ghost glow"
+    "description": "Special Infected Ghost"
   },
   {
     "name": "cl_glow_infected",
     "r": "0.3",
     "g": "0.4",
     "b": "1.0",
-    "desciption": "Color of infected glow"
+    "description": "Special Infected"
   },
   {
     "name": "cl_glow_infected_vomit",
     "r": "0.79",
     "g": "0.07",
     "b": "0.72",
-    "desciption": "Color the PZs see the IT victim glow"
+    "description": "Puked Survivors (as Infected)"
   },
   {
     "name": "cl_glow_item",
     "r": "0.7",
     "g": "0.7",
     "b": "1.0",
-    "desciption": ""
+    "description": "Items / Buttons"
   },
   {
     "name": "cl_glow_item_far",
     "r": "0.3",
     "g": "0.4",
     "b": "1.0",
-    "desciption": ""
+    "description": "Items / Buttons (Far)"
   },
   {
     "name": "cl_glow_survivor",
     "r": "0.3",
     "g": "0.4",
     "b": "1.0",
-    "desciption": "Color of survivor team mate glow"
+    "description": "Survivor Teammate"
   },
   {
     "name": "cl_glow_survivor_health_crit",
     "r": "0.63",
     "g": "0.098",
     "b": "0.098",
-    "desciption": "Color the Infected see Survivors when their health is critical"
+    "description": "Critical Health Survivor (1HP)"
   },
   {
     "name": "cl_glow_survivor_health_crit_colorblind",
     "r": "0.047",
     "g": "0.807",
     "b": "0.807",
-    "desciption": "Color the Infected see Survivors when their health is critical"
+    "description": "Critical Health Survivor (1HP) (Colorblind)"
   },
   {
     "name": "cl_glow_survivor_health_high",
     "r": "0.039",
     "g": "0.69",
     "b": "0.196",
-    "desciption": "Color the Infected see Survivors when their health is high"
+    "description": "High Health Survivor (40+)"
   },
   {
     "name": "cl_glow_survivor_health_high_colorblind",
     "r": "0.047",
     "g": "0.694",
     "b": "0.392",
-    "desciption": "Color the Infected see Survivors when their health is high"
+    "description": "High Health Survivor (40+) (Colorblind)"
   },
   {
     "name": "cl_glow_survivor_health_low",
     "r": "0.70",
     "g": "0.25",
     "b": "0.0",
-    "desciption": "Color the Infected see Survivors when their health is low"
+    "description": "Low Health Survivor (<25)"
   },
   {
     "name": "cl_glow_survivor_health_low_colorblind",
     "r": "0.047",
     "g": "0.807",
     "b": "0.807",
-    "desciption": "Color the Infected see Survivors when their health is low"
+    "description": "Low Health Survivor (<25) (Colorblind)"
   },
   {
     "name": "cl_glow_survivor_health_med",
     "r": "0.59",
     "g": "0.48",
     "b": "0.032",
-    "desciption": "Color the Infected see Survivors when their health is medium"
+    "description": "Medium Health Survivor (25-39)"
   },
   {
     "name": "cl_glow_survivor_health_med_colorblind",
     "r": "0.694",
     "g": "0.573",
     "b": "0.098",
-    "desciption": "Color the Infected see Survivors when their health is medium"
+    "description": "Medium Health Survivor (25-39) (Colorblind)"
   },
   {
     "name": "cl_glow_survivor_hurt",
     "r": "1.0",
     "g": "0.4",
     "b": "0.0",
-    "desciption": "Color of survivor team mate glow when incapacitated"
+    "description": "Incapped Survivor Teammate"
   },
   {
     "name": "cl_glow_survivor_vomit",
     "r": "1.0",
     "g": "0.4",
     "b": "0.0",
-    "desciption": "Color the Survivors see the IT victim glow"
+    "description": "Puked Survivor Teammate"
   },
   {
     "name": "cl_glow_thirdstrike_item",
     "r": "1.0",
     "g": "0.0",
     "b": "0.0",
-    "desciption": ""
+    "description": "Items / Buttons (Black&White)"
   },
   {
     "name": "cl_glow_thirdstrike_item_colorblind",
     "r": "0.3",
     "g": "1.0",
     "b": "1.0",
-    "desciption": ""
+    "description": "Items / Buttons (Black&White) (Colorblind)"
   }
 ]
