@@ -4,9 +4,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { SketchPicker } from "react-color";
 import InvisibleButton from "../common/InvisibleButton";
 import getGlowCvars from "../redux/glows/getGlowCvars";
-import getGlowsCvarText from "../redux/glows/getGlowsCvarText";
 import { GlowCvar } from "../redux/glows/glowsModel";
 import * as glowActions from "../redux/glows/glowsSlice";
+import GlowsCvarOutput from "./GlowsCvarOutput";
 
 const GlowDisplay = ({ glow }: { glow: GlowCvar }): JSX.Element => {
   const dispatch = useDispatch();
@@ -74,7 +74,6 @@ const GlowBox = styled("div")<GlowCvar>`
 
 export default function GlowsDisplay(): JSX.Element {
   const glowData = useSelector(getGlowCvars);
-  const cvarText = useSelector(getGlowsCvarText);
   const shouldCloneToColorblind = useSelector(
     (s) => s.glows.flags.cloneToColorblind
   );
@@ -96,7 +95,7 @@ export default function GlowsDisplay(): JSX.Element {
           <GlowDisplay glow={gd} key={gd.name} />
         ))}
       </GlowGrid>
-      <pre>{cvarText}</pre>
+      <GlowsCvarOutput />
     </div>
   );
 }
