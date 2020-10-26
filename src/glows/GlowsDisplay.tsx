@@ -1,15 +1,40 @@
 import styled from "@emotion/styled";
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { SketchPicker } from "react-color";
+import InvisibleButton from "../common/InvisibleButton";
 import getGlowCvars from "../redux/glows/getGlowCvars";
 import getGlowsCvarText from "../redux/glows/getGlowsCvarText";
 import { GlowCvar } from "../redux/glows/glowsModel";
 import * as glowActions from "../redux/glows/glowsSlice";
 
 const GlowDisplay = ({ glow }: { glow: GlowCvar }): JSX.Element => {
+  const dispatch = useDispatch();
+  const [showPicker, setShowPicker] = useState(false);
+  const { r, g, b } = glow;
   return (
     <GlowCvarBox>
-      <GlowBox {...glow} />
+      <div>
+        <InvisibleButton onClick={() => setShowPicker(!showPicker)}>
+          <GlowBox {...glow} />
+        </InvisibleButton>
+        {showPicker && (
+          <PickerPopover>
+            <PickerBackdrop
+              onClick={() => setShowPicker(false)}
+            ></PickerBackdrop>
+            <SketchPicker
+              disableAlpha={true}
+              color={{ r, g, b }}
+              onChange={(e) =>
+                dispatch(
+                  glowActions.setGlowColor({ name: glow.name, value: e.rgb })
+                )
+              }
+            />
+          </PickerPopover>
+        )}
+      </div>
       <pre>{glow.name}</pre>
       <span>{glow.description}</span>
     </GlowCvarBox>
@@ -19,6 +44,18 @@ const GlowDisplay = ({ glow }: { glow: GlowCvar }): JSX.Element => {
 function getGlowCss(g: GlowCvar) {
   return `rgb(${g.r}, ${g.g}, ${g.b})`;
 }
+
+const PickerPopover = styled.div`
+  position: absolute;
+`;
+
+const PickerBackdrop = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+`;
 
 const GlowCvarBox = styled.div`
   display: flex;

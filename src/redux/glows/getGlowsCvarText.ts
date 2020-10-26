@@ -1,5 +1,4 @@
 import { createSelector } from "@reduxjs/toolkit";
-import { Normalized } from "../normalize";
 import { AppState } from "../rootReducer";
 
 function toFloatStr(u8: number) {
