@@ -138,5 +138,19 @@
     "g": "1.0",
     "b": "1.0",
     "description": "Items / Buttons (Black&White) (Colorblind)"
+  },
+  {
+    "name": "cl_witch_glow_idle",
+    "r": "0.2",
+    "g": "0.4",
+    "b": "0.2",
+    "description": "Idle Witch (broken?)"
+  },
+  {
+    "name": "cl_witch_glow_angry",
+    "r": "1.0",
+    "g": "0.0",
+    "b": "0.0",
+    "description": "Angry Witch (broken?)"
   }
 ]
