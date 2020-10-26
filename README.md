@@ -1,3 +1,9 @@
+# L4D2 Glow Picker
+
+https://prodigysim.github.io/l4d-web-tools
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
