@@ -22,11 +22,8 @@ const GlowCfgInput = (): React.ReactElement => {
   };
   return (
     <FileDropContainer>
-      <p>
-        <FileDrop
-          onTargetClick={onTargetClick}
-          onDrop={(files) => (fileInputRef.current!.files = files)}
-        >
+      <div>
+        <FileDrop onTargetClick={onTargetClick} onDrop={updateGlowsFromFiles}>
           <button>Browse</button>
           <DropOverlay>
             <DropOverlayModal>
@@ -35,7 +32,7 @@ const GlowCfgInput = (): React.ReactElement => {
           </DropOverlay>
         </FileDrop>
         for a .cfg file or drag one here.
-      </p>
+      </div>
       <HiddenInput
         onChange={onFileInputChange}
         ref={fileInputRef}
@@ -84,6 +81,7 @@ const DropOverlayModal = styled.div`
   font-size: 24px;
   display: flex;
   align-items: center;
+  color: black;
 `;
 
 export default GlowCfgInput;
