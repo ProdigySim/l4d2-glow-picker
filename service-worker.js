@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/l4d2-glow-picker/precache-manifest.c40659822a94b2c80218e8e4c6b841c4.js"
+  "/l4d2-glow-picker/precache-manifest.fbc16d2dd2e031b7bf3606d914740ad4.js"
 );
 
 self.addEventListener('message', (event) => {
