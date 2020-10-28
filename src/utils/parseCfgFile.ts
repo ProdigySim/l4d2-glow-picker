@@ -12,7 +12,7 @@ export default function parseCfgFile(
   cfgFile: string
 ): Array<{ cvar: string; value: number }> {
   const txt = cfgFile.replace(/\/\/.*$/g, "");
-  const expressions = txt.split(/[;\n]/g);
+  const expressions = txt.split(/;|(\r?\n)/g);
   // Get all expressions with 2 arguments...
   // Then try to parse them as cvarname,value pairs.
   return expressions
