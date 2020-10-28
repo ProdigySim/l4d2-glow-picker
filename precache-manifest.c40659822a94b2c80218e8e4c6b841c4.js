@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcb736a264d5bbf7e1c56c3f746e4f49",
+    "revision": "b93e5503645995dcf9c8b826484de390",
     "url": "/l4d2-glow-picker/index.html"
   },
   {
-    "revision": "4efa41f6b892e579c3ae",
+    "revision": "e29727af1e41b55ebf75",
     "url": "/l4d2-glow-picker/static/css/main.253583b8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/l4d2-glow-picker/static/js/2.93ae5ad7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4efa41f6b892e579c3ae",
-    "url": "/l4d2-glow-picker/static/js/main.294dbd5e.chunk.js"
+    "revision": "e29727af1e41b55ebf75",
+    "url": "/l4d2-glow-picker/static/js/main.897197a2.chunk.js"
   },
   {
     "revision": "2bcf15521a68192afae4",
