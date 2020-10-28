@@ -14,9 +14,9 @@
     "react": "^16.13.1",
     "react-color": "^2.18.1",
     "react-dom": "^16.13.1",
+    "react-file-drop": "^3.1.0",
     "react-redux": "^7.2.1",
-    "react-scripts": "3.4.3",
-    "typescript": "^3.7.5"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -55,7 +55,8 @@
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
-    "redux-devtools": "^3.7.0"
+    "redux-devtools": "^3.7.0",
+    "typescript": "^3.9.7"
   },
   "husky": {
     "hooks": {

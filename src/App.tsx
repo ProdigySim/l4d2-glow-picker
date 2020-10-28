@@ -9,7 +9,10 @@ function App() {
   return (
     <div className="App">
       <h1>L4D2 Glow Picker</h1>
-      <p>Select some glow colors here.</p>
+      <p>
+        Upload a cfg file to import glows, or start customizing from the default
+        glows.
+      </p>
       <GlowsDisplay />
     </div>
   );

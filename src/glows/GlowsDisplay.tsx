@@ -7,6 +7,7 @@ import getGlowCvars from "../redux/glows/getGlowCvars";
 import { GlowCvar } from "../redux/glows/glowsModel";
 import * as glowActions from "../redux/glows/glowsSlice";
 import GlowsCvarOutput from "./GlowsCvarOutput";
+import GlowCfgInput from "./GlowCfgInput";
 
 const GlowDisplay = ({ glow }: { glow: GlowCvar }): JSX.Element => {
   const dispatch = useDispatch();
@@ -80,6 +81,7 @@ export default function GlowsDisplay(): JSX.Element {
   const dispatch = useDispatch();
   return (
     <div>
+      <GlowCfgInput />
       <label>
         <input
           type="checkbox"
